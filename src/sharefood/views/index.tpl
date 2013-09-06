@@ -1,82 +1,65 @@
 <!DOCTYPE html>
-
 <html>
-  	<head>
-    	<title>Beego</title>
-    	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  	</head>
-	
-	<style type="text/css">
-		body {
-			margin: 0px;
-			font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-			font-size: 14px;
-			line-height: 20px;
-			color: rgb(51, 51, 51);
-			background-color: rgb(255, 255, 255);
-		}
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    
+    <!-- Custom styles for sticky footer -->
+    <link href="/static/css/sticky-footer.css" rel="stylesheet">
 
-		.hero-unit {
-			padding: 60px;
-			margin-bottom: 30px;
-			border-radius: 6px 6px 6px 6px;
-		}
-
-		.container {
-			width: 940px;
-			margin-right: auto;
-			margin-left: auto;
-		}
-
-		.row {
-			margin-left: -20px;
-		}
-
-		h1 {
-			margin: 10px 0px;
-			font-family: inherit;
-			font-weight: bold;
-			text-rendering: optimizelegibility;
-		}
-
-		.hero-unit h1 {
-			margin-bottom: 0px;
-			font-size: 60px;
-			line-height: 1;
-			letter-spacing: -1px;
-			color: inherit;
-		}
-
-		.description {
-		    padding-top: 5px;
-		    padding-left: 5px;
-		    font-size: 18px;
-		    font-weight: 200;
-		    line-height: 30px;
-		    color: inherit;
-		}
-
-		p {
-		    margin: 0px 0px 10px;
-		}
-	</style>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="/static/js/html5shiv.js"></script>
+      <script src="/static/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  	<div id="wrap">
   	
-  	<body>
-  		<header class="hero-unit" style="background-color:#A9F16C">
-			<div class="container">
-			<div class="row">
-			  <div class="hero-text">
-			    <h1>Welcome to Beego!</h1>
-			    <p class="description">
-			    	Beego is a simple & powerful Go web framework which is inspired by tornado and sinatra.
-			    <br />
-			    	Official website: <a href="http://{{.Website}}">{{.Website}}</a>
-			    <br />
-			    	Contact me: {{.Email}}</a>
-			    </p>
-			  </div>
-			</div>
-			</div>
-		</header>
-	</body>
+	    <div class="navbar navbar-inverse navbar-fixed-top">
+	      <div class="container">
+	        <div class="navbar-header">
+	          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	            <span class="icon-bar"></span>
+	          </button>
+	          <a class="navbar-brand" href="#">Project name</a>
+	        </div>
+	        <div class="collapse navbar-collapse">
+	          <ul class="nav navbar-nav">
+	            <li class="active"><a href="#">Home</a></li>
+	            <li><a href="#about">About</a></li>
+	            <li><a href="#contact">Contact</a></li>
+	          </ul>
+	        </div><!--/.nav-collapse -->
+	      </div>
+	    </div>
+	
+	    <div class="container">
+	
+	      <div class="starter-template">
+	        <h1>Bootstrap starter template</h1>
+	        <p class="lead">Use this document as a way to quickly start any new project.<br> All you get is this text and a mostly barebones HTML document.</p>
+	      </div>
+	
+	    </div><!-- /.container -->
+    
+    </div>
+    
+    <div id="footer">
+      <div class="container">
+        <p class="text-muted credit">Example courtesy <a href="http://martinbean.co.uk">Martin Bean</a> and <a href="http://ryanfait.com/sticky-footer/">Ryan Fait</a>.</p>
+      </div>
+    </div>
+    
+    
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="//code.jquery.com/jquery.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/static/js/bootstrap.min.js"></script>
+  </body>
 </html>
