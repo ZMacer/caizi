@@ -5,7 +5,7 @@
 		<link rel="shortcut icon" href="/static/img/favicon.png" />
 		<meta name="author" content="Hiler" />
 		<meta name="description" content="才子社区 关注社会，关注人文，社会辣评" />
-		<meta name="keywords" content="社会，人文，怪现状，文学，小说">
+		<meta name="keywords" content="社会，人文，怪现状，文学，小说"/>
 
 		 
 		<link href="/static/css/bootstrap-custom.css" rel="stylesheet" />

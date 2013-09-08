@@ -14,3 +14,7 @@ func (this *MainController) Get() {
 	this.TplNames = "index.tpl"
 
 }
+
+func (c *MainController) Abort(code string) {
+	panic(code)
+}
