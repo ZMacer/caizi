@@ -6,16 +6,6 @@
 		                <div class="span12 footer">
 		                    <div class="span8 tbox">
 		                    	beego 应用框架是一个开源项目，初经 <a href="https://github.com/astaxie">Asta谢</a> 发起，现由 beego 开发者社区维护。授权许可遵循 <a href="http://www.apache.org/licenses/LICENSE-2.0.html">apache 2.0 licence</a>。
-		                        <strong>语言选项：</strong>
-							    <div class="btn-group dropup">
-								    <button class="btn dropdown-toggle" data-toggle="dropdown">简体中文 <span class="caret"></span></button>
-								    <ul class="dropdown-menu">
-									
-								    	
-								    	<li><a href="?lang=en&q=">English</a></li>
-								    	
-								    </ul>
-							    </div>
 		                    </div>
 		
 		                    <div class="span4 tbox textright social links">

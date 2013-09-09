@@ -20,16 +20,15 @@ func page_not_found(rw http.ResponseWriter, r *http.Request) {
 	
 	data := make(map[string]interface{})
 	data["Title"] = "页面未找到"
-	data["Content"] = template.HTML("<br>The Page You have requested flown the coop." +
-		"<br>Perhaps you are here because:" +
-		"<br><br><ul>" +
-		"<br>The page has moved" +
-		"<br>The page no longer exists" +
-		"<br>You were looking for your puppy and got lost" +
-		"<br>You like 404 pages" +
+	data["Content"] = template.HTML("<br>你所访问的页面不存在。肯能由如下原因造成:" +
+		"<br><ul>" +
+		"<br>页面已经迁移" +
+		"<br>页面不存在" +
+		"<br>正在寻找你丢失的小狗" +
+		"<br>你喜欢404页面" +
 		"</ul>")
-	data["BeegoVersion"] = "xx"
-	
+		
+	rw.WriteHeader(http.StatusNotFound)
 	t.ExecuteTemplate(rw, "err404.tpl", data)
 	
 }

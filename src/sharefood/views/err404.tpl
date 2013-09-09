@@ -1,15 +1,6 @@
 {{template "header.tpl"}}
 
 		<style type="text/css">
-			* {
-				margin:0;
-				padding:0;
-			}
-
-			body {
-				background-color:#EFEFEF;
-				font: .9em "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-			}
 
 			#wrapper{
 				width:600px;
@@ -86,8 +77,6 @@
 				<div id="content">
 					{{.Content}}
 					<a href="/" title="Home" class="button">返回首页</a><br />
-
-					<br>Powered by ShareFood {{.BeegoVersion}}
 				</div>
 			</div>
 		</div>

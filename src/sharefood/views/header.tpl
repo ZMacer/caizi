@@ -31,12 +31,7 @@
 		
 		            <ul class="nav pull-right">
 		                <li class="active"><a href="/" title="首页">首页</a></li>
-		                <li ><a href="/about" title="关于 beego">关于 beego</a></li>
-		                <li ><a href="/community" title="开发者社区">开发者社区</a></li>
-		                <li ><a href="/quickstart" title="快速入门">快速入门</a></li>
-		                <li ><a href="/docs" title="beego 开发文档">开发文档</a></li>
-		                <li ><a href="/samples" title="beego 示例程序">示例程序</a></li>
-		                <li><a target="_blank" href="http://blog.beego.me" title="官方博客">博客</a></li>
+		                <li ><a href="/about" title="关于 才子社">关于 才子社</a></li>
 		            </ul>
 		        </div>
 		    </div>
