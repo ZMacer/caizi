@@ -12,7 +12,6 @@ func (this *MainController) Get() {
 
 	this.Data["WebSite"] = "ShareFood"
 	this.TplNames = "index.tpl"
-
 }
 
 func (c *MainController) Abort(code string) {
