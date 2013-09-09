@@ -10,7 +10,7 @@ type MainController struct {
 
 func (this *MainController) Get() {
 
-	this.Data["WebSite"] = "ShareFood"
+	this.Data["WebSite"] = "CaiZi"
 	this.TplNames = "index.tpl"
 }
 

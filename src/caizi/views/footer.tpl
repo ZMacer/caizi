@@ -5,13 +5,14 @@
 		            <div class="row">
 		                <div class="span12 footer">
 		                    <div class="span8 tbox">
-		                    	beego 应用框架是一个开源项目，初经 <a href="https://github.com/astaxie">Asta谢</a> 发起，现由 beego 开发者社区维护。授权许可遵循 <a href="http://www.apache.org/licenses/LICENSE-2.0.html">apache 2.0 licence</a>。
+		                    <span class="text"><span class="en-code" style="font-family: arial;font-size: 14px;">©</span> 2007-2013 Hiler.Chen(陈涛)版权所有</span>
+		                    	&nbsp;&nbsp;&nbsp;&nbsp;<b>MAIL</b>:hilerchyn@gmail.com&nbsp;&nbsp;&nbsp;&nbsp;<b>SKYPE</b>:hilerchyn
 		                    </div>
 		
 		                    <div class="span4 tbox textright social links">
-		                        <a class="twitter" href="https://twitter.com/xiemengjun">Twitter</a>
-		                        <a class="github" href="https://github.com/astaxie/beego">GitHub</a>
-		                        <a class="googleplus" href="https://plus.google.com/111292884696033638814">Goolge+</a>
+		                        <!--a class="twitter" href="">Twitter</a-->
+		                        <a class="github" href="https://github.com/hilerchyn/caizi">GitHub</a>
+		                        <!--a class="googleplus" href="">Goolge+</a-->
 		                    </div>
 		                </div>
 		            </div>

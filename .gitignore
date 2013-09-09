@@ -22,4 +22,6 @@ _cgo_export.*
 _testmain.go
 
 *.exe
-src/sharefood/main
+src/caizi/main
+src/caizi/caizi
+*~

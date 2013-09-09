@@ -1,14 +1,11 @@
 package main
 
 import (
-	"sharefood/controllers"
+	"caizi/controllers"
 	"github.com/astaxie/beego"
 	//"github.com/emicklei/hopwatch"
 	"net/http"
 	"html/template"
-	//"fmt"
-	//"path/filepath"
-	//"io/ioutil"
 )
 
 
@@ -24,7 +21,7 @@ func page_not_found(rw http.ResponseWriter, r *http.Request) {
 		"<br><ul>" +
 		"<br>页面已经迁移" +
 		"<br>页面不存在" +
-		"<br>正在寻找你丢失的小狗" +
+		"<br>你正在寻找丢失的小狗" +
 		"<br>你喜欢404页面" +
 		"</ul>")
 		

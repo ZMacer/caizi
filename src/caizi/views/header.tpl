@@ -37,5 +37,5 @@
 		    </div>
 		</div>
 
-		<a target="_blank" href="https://github.com/hilerchyn/sharefood"><img style="position: absolute; top: 70; right: 0; border: 0; z-index: 22" src="/static/img/fork-us-on-github.png" alt="Fork us on GitHub"></a>
+		<a target="_blank" href="https://github.com/hilerchyn/caizi"><img style="position: absolute; top: 70; right: 0; border: 0; z-index: 22" src="/static/img/fork-us-on-github.png" alt="Fork us on GitHub"></a>
 

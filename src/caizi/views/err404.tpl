@@ -34,16 +34,19 @@
 
 			.navtop{
 				height:40px;
-				background-color:#24B2EB;
+				background-color:#FF0000;
 				padding:13px;
 			}
 
-			.content {
+			#content {
 				padding:10px 10px 25px;
 				background: #FFFFFF;
 				margin:;
 				color:#333;
+				text-align:left;
+				padding-left:100px;
 			}
+			
 
 			a.button{
 				color:white;
@@ -51,10 +54,10 @@
 				text-shadow:1px 1px 0 #00A5FF;
 				font-weight:bold;
 				text-align:center;
-				border:1px solid #24B2EB;
+				border:1px solid #FF0000;
 				margin:0px 200px;
 				clear:both;
-				background-color: #24B2EB;
+				background-color: #FF0000;
 				border-radius:100px;
 				-moz-border-radius:100px;
 				-webkit-border-radius:100px;
@@ -62,7 +65,7 @@
 
 			a.button:hover{
 				text-decoration:none;
-				background-color: #24B2EB;
+				background-color: #FF0000;
 			}
 
 		</style>
@@ -76,8 +79,8 @@
 				</div>
 				<div id="content">
 					{{.Content}}
-					<a href="/" title="Home" class="button">返回首页</a><br />
 				</div>
+				<a href="/" title="Home" class="button">返回首页</a><br />
 			</div>
 		</div>
 		
