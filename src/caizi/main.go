@@ -17,7 +17,7 @@ func page_not_found(rw http.ResponseWriter, r *http.Request) {
 	
 	data := make(map[string]interface{})
 	data["Title"] = "页面未找到"
-	data["Content"] = template.HTML("<br>你所访问的页面不存在。肯能由如下原因造成:" +
+	data["Content"] = template.HTML("<br>你所访问的页面不存在。可能由如下原因造成:" +
 		"<br><ul>" +
 		"<br>页面已经迁移" +
 		"<br>页面不存在" +
