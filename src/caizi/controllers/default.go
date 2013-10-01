@@ -11,6 +11,8 @@ type MainController struct {
 func (this *MainController) Get() {
 
 	this.Data["WebSite"] = "CaiZi"
+	this.Data["Navhome"] = "active"
+	this.Layout = "layout.tpl"
 	this.TplNames = "index.tpl"
 }
 

@@ -1,4 +1,4 @@
-{{template "header.tpl"}}
+{{template "header.tpl" .}}
 
 		<style type="text/css">
 
@@ -85,4 +85,4 @@
 		</div>
 		
 		
-{{template "footer.tpl"}}
+{{template "footer.tpl" .}}

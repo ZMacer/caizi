@@ -1,4 +1,3 @@
-{{template "header.tpl"}}
 
 		<div class="">
 		    <div id="top" class="main-banner">
@@ -35,5 +34,3 @@
 
 			</div>
 		</div>
-
-{{template "footer.tpl"}}

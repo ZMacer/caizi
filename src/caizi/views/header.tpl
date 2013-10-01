@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 	<head>
@@ -30,12 +29,11 @@
 		            </div>
 		
 		            <ul class="nav pull-right">
-		                <li class="active"><a href="/" title="首页">首页</a></li>
-		                <li ><a href="/about" title="关于 才子社">关于 才子社</a></li>
+		                <li class="{{.Navhome}}"><a href="/" title="首页">首页</a></li>
+		                <li class="{{.Navabout}}"><a href="/about" title="关于 才子社">关于 才子社</a></li>
 		            </ul>
 		        </div>
 		    </div>
 		</div>
 
 		<a target="_blank" href="https://github.com/hilerchyn/caizi"><img style="position: absolute; top: 70; right: 0; border: 0; z-index: 22" src="/static/img/fork-us-on-github.png" alt="Fork us on GitHub"></a>
-
