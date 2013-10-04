@@ -34,5 +34,6 @@ func main() {
 	beego.Errorhandler("404",page_not_found)
 	
 	beego.Router("/", &controllers.MainController{})
+	beego.Router("/admin/login/", &controllers.AdminLoginController{})
 	beego.Run()
 }

@@ -12,6 +12,10 @@
 		<link href="/static/css/main.css" rel="stylesheet" />
 		<link href="/static/css/link.css" rel="stylesheet" />
 		<link href="/static/css/github.css" rel="stylesheet" />
+		
+		{{if .LoginCSS}}
+			<link href="/static/css/signin.css" rel="stylesheet" />
+		{{end}}
 
 		<title>才子社 - 关注人文、关注社会</title>
 	</head>	
