@@ -36,7 +36,19 @@
 		                <li class="{{.Navhome}}"><a href="/" title="首页">首页</a></li>
 		                <li class="{{.Navabout}}"><a href="/about" title="关于 才子社">关于 才子社</a></li>
 		                {{if .Logedin}}
-		                	<li class="{{.Navlogin}}"><a href="/admin/logout" title="用户退出">退出</a></li>
+		                	<li class="{{.Navlogin}}">
+								<div class="dropdown">
+								  <button class="btn dropdown-toggle sr-only" type="button" id="dropdownMenu1" data-toggle="dropdown">
+								    {{.UserName}}
+								    <span class="caret"></span>
+								  </button>
+								  <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+								    <li role="presentation"><a role="menuitem" class="disabled" tabindex="-1" href="#">个人资料</a></li>
+								    <li role="presentation" class="divider"></li>
+								    <li role="presentation"><a role="menuitem" tabindex="-1" href="/admin/logout/">退出</a></li>
+								  </ul>
+								</div>
+		                	</li>
 		                {{else}}
 		                	<li class="{{.Navlogin}}"><a href="/admin/login" title="用户登录">登录</a></li>
 		                {{end}}

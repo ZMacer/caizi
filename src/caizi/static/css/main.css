@@ -19,12 +19,13 @@ p a {
   margin-left: 0px;
   float: left;
   display: block;
+  *width/*\**/:220px \9;
 }
 .brand.logo a {
   color: white;
 }
 .navbar .nav li a {
-  padding: 25px 20px 25px;
+  /* padding: 25px 20px 25px;*/
 }
 .nav-underline {
   height: 6px;

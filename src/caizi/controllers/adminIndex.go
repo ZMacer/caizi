@@ -14,7 +14,6 @@ func (this *AdminIndexController) Prepare() {
 
 	this.LoginStatus("/admin/login/", false)
 
-	this.Data["WebSite"] = "CaiZi"
 	this.Layout = "layout.tpl"
 }
 

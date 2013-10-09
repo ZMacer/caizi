@@ -25,12 +25,14 @@ func (this *MainController) LoginStatus(redirectURL string, rSwitch bool) bool {
 	// check login status
 	vId := this.GetSession("UserID")
 	if vId != nil {
-	
+		
+		this.Data["WebSite"] = "CaiZi"
+		this.Data["Logedin"] = true
+		this.Data["UserName"] = this.GetSession("UserName")
+		
 		if rSwitch && redirectURL != "" {
 			this.Redirect(redirectURL, 302)
 		}
-		
-		this.Data["Logedin"] = true
 		
 		return true
 	}

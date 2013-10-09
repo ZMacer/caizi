@@ -15,7 +15,6 @@ func (this *AdminLoginController) Prepare() {
 
 	this.LoginStatus("/admin/index", true)
 
-	this.Data["WebSite"] = "CaiZi"
 	this.Data["LoginCSS"] = true
 	this.Data["Navlogin"] = "active"
 	

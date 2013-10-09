@@ -14,7 +14,6 @@ func (this *DefaultController) Prepare() {
 
 func (this *DefaultController) Get() {
 
-	this.Data["WebSite"] = "CaiZi"
 	this.Data["Navhome"] = "active"
 	this.Layout = "layout.tpl"
 	this.TplNames = "index.tpl"
