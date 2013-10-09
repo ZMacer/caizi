@@ -8,8 +8,7 @@ import (
 )
 
 func init() {
-	beego.SessionProvider = beego.AppConfig.String("sessProvider")
-	beego.SessionSavePath = beego.AppConfig.String("sessSavePath")
+
 }
 
 //404
@@ -27,7 +26,7 @@ func page_not_found(rw http.ResponseWriter, r *http.Request) {
 		"<br>你喜欢404页面" +
 		"</ul>")
 	//data["Navabout"] = "active"
-
+	
 	rw.WriteHeader(http.StatusNotFound)
 	t.ExecuteTemplate(rw, "err404.tpl", data)
 	
@@ -39,6 +38,7 @@ func main() {
 	
 	beego.Router("/", &controllers.DefaultController{})
 	beego.Router("/admin/login/", &controllers.AdminLoginController{})
+	beego.Router("/admin/logout/", &controllers.AdminLogoutController{})
 	beego.Router("/admin/index/", &controllers.AdminIndexController{})
 	beego.Run()
 }

@@ -8,6 +8,11 @@ type MainController struct {
 	beego.Controller
 }
 
+func init() {
+	beego.SessionProvider = beego.AppConfig.String("sessProvider")
+	beego.SessionSavePath = beego.AppConfig.String("sessSavePath")
+}
+
 /**
 * 检测当前访问用户的登录状态,并根据开关(rSwitch)和跳转(redirectURL),进行不同的流程。
 * 跳转不为空的前提下：如果rSwitch为true，用户登录的状态下调装；如果rSwitch为false，用户未登录状态下跳转；
