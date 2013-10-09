@@ -19,7 +19,7 @@ p a {
   margin-left: 0px;
   float: left;
   display: block;
-  *width/*\**/:220px \9;
+  width:220px;
 }
 .brand.logo a {
   color: white;
