@@ -1,17 +1,19 @@
 package controllers
 
 import (
-	"github.com/astaxie/beego"
+	//"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
 	
 	"caizi/models"
 )
 
 type AdminLoginController struct {
-	beego.Controller
+	MainController
 }
 
 func (this *AdminLoginController) Prepare() {
+
+	this.LoginStatus("/admin/index", true)
 
 	this.Data["WebSite"] = "CaiZi"
 	this.Data["LoginCSS"] = true

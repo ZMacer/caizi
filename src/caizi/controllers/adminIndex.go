@@ -1,22 +1,18 @@
 package controllers
 
 import (
-	"github.com/astaxie/beego"
+	//"github.com/astaxie/beego"
 	
 	"caizi/models"
 )
 
 type AdminIndexController struct {
-	beego.Controller
+	MainController
 }
 
 func (this *AdminIndexController) Prepare() {
-	// check login status
-	vId := this.GetSession("UserID")
-	if vId == nil || vId == 0 {
-		this.Redirect("/admin/login", 302)
-		return
-	}
+
+	this.LoginStatus("/admin/login/", false)
 
 	this.Data["WebSite"] = "CaiZi"
 	this.Layout = "layout.tpl"

@@ -35,7 +35,11 @@
 		            <ul class="nav pull-right">
 		                <li class="{{.Navhome}}"><a href="/" title="首页">首页</a></li>
 		                <li class="{{.Navabout}}"><a href="/about" title="关于 才子社">关于 才子社</a></li>
-		                <li class="{{.Navlogin}}"><a href="/admin/login" title="用户登录">登录</a></li>
+		                {{if .Logedin}}
+		                	<li class="{{.Navlogin}}"><a href="/admin/logout" title="用户退出">退出</a></li>
+		                {{else}}
+		                	<li class="{{.Navlogin}}"><a href="/admin/login" title="用户登录">登录</a></li>
+		                {{end}}
 		            </ul>
 		        </div>
 		    </div>

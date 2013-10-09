@@ -1,14 +1,18 @@
 package controllers
 
 import (
-	"github.com/astaxie/beego"
+	//"github.com/astaxie/beego"
 )
 
-type MainController struct {
-	beego.Controller
+type DefaultController struct {
+	MainController
 }
 
-func (this *MainController) Get() {
+func (this *DefaultController) Prepare() {
+	this.LoginStatus("", true)
+}
+
+func (this *DefaultController) Get() {
 
 	this.Data["WebSite"] = "CaiZi"
 	this.Data["Navhome"] = "active"
@@ -16,6 +20,6 @@ func (this *MainController) Get() {
 	this.TplNames = "index.tpl"
 }
 
-func (c *MainController) Abort(code string) {
+func (c *DefaultController) Abort(code string) {
 	panic(code)
 }
