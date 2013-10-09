@@ -3,7 +3,6 @@ package controllers
 import (
 	"github.com/astaxie/beego"
 	"github.com/astaxie/beego/orm"
-	//"fmt"
 	
 	"caizi/models"
 )
@@ -52,7 +51,11 @@ func (this *AdminLoginController) Post() {
 	}
 	
 	if pass == user.Pass {
-		
+		this.Redirect("/admin/index", 302)
+		this.SetSession("UserName", user.Name)
+		this.SetSession("UserID", user.Id)
+		this.SetSession("UserMail", user.Mail)
+
 	} else {
 		this.Data["message"] = "密码不正确"
 	}
