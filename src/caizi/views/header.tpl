@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
+		<meta property="wb:webmaster" content="949390f262ee2a25" />
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 		<link rel="shortcut icon" href="/static/img/favicon.png" />
 		<meta name="author" content="Hiler" />
