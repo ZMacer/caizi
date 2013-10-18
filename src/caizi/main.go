@@ -40,5 +40,9 @@ func main() {
 	beego.Router("/admin/login/", &controllers.AdminLoginController{})
 	beego.Router("/admin/logout/", &controllers.AdminLogoutController{})
 	beego.Router("/admin/index/", &controllers.AdminIndexController{})
+	
+	beego.Router("/auth/callback/", &controllers.AuthCallController{})
+	beego.Router("/auth/cancel/callback/", &controllers.AuthCancelCallController{})
+	
 	beego.Run()
 }
