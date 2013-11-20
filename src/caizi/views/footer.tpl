@@ -24,6 +24,12 @@
 		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 		<script src="/static/js/bootstrap.min.js"></script>
 		<script src="/static/js/jquery.scrollTo-min.js"></script>
+		
+		<script type="text/javascript" id="bdshare_js" data="type=tools&amp;uid=1005599" ></script>
+		<script type="text/javascript" id="bdshell_js"></script>
+		<script type="text/javascript">
+		document.getElementById("bdshell_js").src = "http://bdimg.share.baidu.com/static/js/shell_v2.js?cdnversion=" + Math.ceil(new Date()/3600000)
+		</script>
 		   
 
 		<script type="text/javascript">

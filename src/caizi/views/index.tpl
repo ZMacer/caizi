@@ -11,8 +11,22 @@
 		</div>
 
 		<div class="container">
-		
-			<div id="markdown" class="markdown span12"><h2>三人成虎</h2>
+		<!-- Baidu Button BEGIN -->
+			<div id="bdshare" class="bdshare_t bds_tools get-codes-bdshare" style="float: right;margin-left: 750px;margin-top: 30px;position: absolute;">
+			<a class="bds_tsina"></a>
+			<a class="bds_qzone"></a>
+			<a class="bds_tqq"></a>
+			<a class="bds_renren"></a>
+			<a class="bds_t163"></a>
+			<span class="bds_more">更多</span>
+			<a class="shareCount"></a>
+			</div>
+			<!-- Baidu Button END -->	
+			<div id="markdown" class="markdown span12">
+			
+					
+			
+			<h2>三人成虎</h2>
 
 			<p>魏国被赵国打败了，因此魏国的太子和大臣庞恭，将要送到赵国的首都邯郸，去充当人质。</p>
 			<p>临走时，庞恭对魏王说：“要是有人跑来向你报告，说大街 上跑出来一只老虎，大王相信吗？”</p>
